@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$USER_HOME$/Desktop/RN/Testing/QLDT_NEU/android/app/app.iml" filepath="$USER_HOME$/Desktop/RN/Testing/QLDT_NEU/android/app/app.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/RN/Testing/QLDT_NEU/android/parcel.iml" filepath="$USER_HOME$/Desktop/RN/Testing/QLDT_NEU/android/parcel.iml" />
+      <module fileurl="file://$USER_HOME$/Desktop/RN/Testing/QLDT_NEU/node_modules/react-native-navigation/android/app/react-native-navigation.iml" filepath="$USER_HOME$/Desktop/RN/Testing/QLDT_NEU/node_modules/react-native-navigation/android/app/react-native-navigation.iml" />
+    </modules>
+  </component>
+</project>

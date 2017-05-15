@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-1.0.1_8c64efe6a26b2cca496a6e3e3fa531bd0ef04d0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-1.5.4_17911ef82a702e57d8037142885119c1110a1bcb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_1fc2a018087e57733ed5a11eb197badd8e1fa52a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_07d273720172b86e4220d0ac443689932462c403.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-1.0.1_9e4cbdfd32bfef5f29a095e0e6d4a2c8c2e4a2ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.2.0_fd0a5c42dbd18f78c45a4ef9f5cac166c0971894.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.2.0_f08a7a3109d8b6275c71c9dbeb878eee2d70fbdc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-ws/3.4.1/8ace66ef7002d98f633377c9e67daeeb196d8c3b/okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-3.4.1_3ca233e0cf77e1eeb11471356523db71abdd80ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.facebook.fbui.textlayoutbuilder/textlayoutbuilder/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_9cf7b3709846ae32f05c6078f5ff4b240f7e39f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_e7630c0a34b867295213ed6a75cc5b40d334703f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_df5d267a5a94f77bdd7e40ec462a57363d9e3e9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/parcel/react-native-navigation/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1871ec88eeba0948d2c43e1182569aba7d2956f4">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/parcel-react-native-navigation-unspecified_358456d4b338df6adee45ad3bb6827ebe514b2d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.2.0_f7c55160f0d76b1330c473d7b764b2eb50f513f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.2.0_f3ac8794abb206453f34b3789c3999ee92550d34.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.facebook.soloader/soloader/0.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.facebook.soloader-soloader-0.1.0_272c6292e1018bac7ae852f9aaa1d27859464962.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.balysv.materialmenu/material-menu-toolbar/1.5.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.balysv.materialmenu-material-menu-toolbar-1.5.4_4c2b7e438cd045216f53b0f894679c181837234f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-okhttp3/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-okhttp3-1.0.1_312ea0420ea77b3ed0aeb975024e2f2667ada182.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/design/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.2.0_f62cffec025add243ceb87a3a148ff0236a8fe69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="af9665a44df26b4098e24c934c1109507845ef5e">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.facebook.react-react-native-0.44.0_a52d8978e469b39960228f5c420bdea910fd1f72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.aurelhubert/ahbottomnavigation/2.0.6/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.aurelhubert-ahbottomnavigation-2.0.6_bd28511790e10597c8673a2d555eed5e9c30e004.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-1.0.1_4d897d5cb4e8abacc43a3693e5e738ac442d4a10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/transition/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.2.0_bacc360d5c875dd81ba0b20c33dcde9021bdae8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.2.0_a0de1d4b59ec6da79f9b8196312022ffb7a4772e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/okhttp-3.4.1_502b8d99699eec6cac17898c56b8b03863cdeeeb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.2.0_b6601b04e3efadb3fd497807d12b499f2fd379d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.2.0_305a73a4051cb15eccccf50614f5494535a1fecb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.2.0_5a4968b9e836e521c1c0bc189b02c294fda3c2a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_c6f2e7f9d06f31eeb1706ac74b401cd2c6b4f8b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.2.0_9d505a9cd0e017babdf596c39e10eba06a9511ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_0a0a3a8052e6eccbac1cad585a63d002a9461a8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-1.0.1_c65af5877e5e4b1999418842bf1f6fd37f7a9fe6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/okio-1.9.0_0ba9f395d9e2e9ae1413e6676f75f486cfbd44f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.4.1/63994437f62bc861bc20c605d12962f7246116d1/okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.4.1_8a66ad6c3065f630ef7ec9e556af8fb84d59d1cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.facebook.react/react-native/0.44.0/jars/libs/infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/infer-annotations-1.5_1db3f402776c06ff8e8a8c00c7cc69257983f82d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/1.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-1.0.1_25492dbd8d11bea9e3346fef6429d013cff363da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mini/Desktop/RN/Testing/QLDT_NEU/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.2.0_d79734f3a5eeb2e0791db4409117ada82b2eadbf.jar" />
+    </item>
+
+</items>
