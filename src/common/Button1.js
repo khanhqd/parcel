@@ -15,17 +15,17 @@ const Button1 = ({ onPress, text, width, height }) => {
 const styles = {
   button: {
     backgroundColor: '#FF3366',
-    borderRadius: 25,
-    borderWidth: 2,
-    borderColor: '#FF3366',
-    margin: 10,
+    // borderRadius: 25,
+    // borderWidth: 2,
+    // borderColor: '#FF3366',
+    // margin: 10,
     alignItems: 'center',
     justifyContent: 'center',
   },
   text: {
     alignSelf: 'center',
     color: 'white',
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: 'bold'
   }
 };

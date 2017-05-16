@@ -28,8 +28,8 @@ export default class Login extends Component {
 
   loginBtnPress() {
     this.props.navigator.push({
-      screen: 'parcel.Runs',
-      title: 'Runs'
+      screen: 'parcel.Home',
+      title: 'Trang chủ'
     });
   }
 
@@ -39,6 +39,11 @@ export default class Login extends Component {
           <Image
           style={styles.background}
           source={require('../../img/login_background.png')}/>
+
+          <Image
+          style={{width: 100, height: 100, marginTop: 100}}
+          source={require('../../img/Logo-NEU.png')}/>
+
           <View style={{ position:'absolute', bottom: 70 }}>
               <KeyboardAvoidingView behavior="padding" style={styles.inputContainer}>
                   <LoginInput
@@ -53,7 +58,7 @@ export default class Login extends Component {
                   <Button1
                   text="Sign in"
                   onPress={()=>this.loginBtnPress()}
-                  width = {width*0.8}/>
+                  width = {width}/>
               </View>
           </View>
       </View >
