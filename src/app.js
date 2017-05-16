@@ -9,7 +9,6 @@ registerScreens();
 
 Navigation.startSingleScreenApp({
     screen: {
-      screen: 'parcel.Login',
-      title: 'Login'
+      screen: 'parcel.Login'
     }
 });

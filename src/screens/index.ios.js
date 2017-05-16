@@ -1,7 +1,7 @@
 import {Navigation} from 'react-native-navigation';
 
 import Login from './Login';
-import Runs from './Runs';
+import Home from './Home';
 import CreateRun from './CreateRun';
 import StartRun from './StartRun';
 
@@ -9,7 +9,7 @@ import StartRun from './StartRun';
 export function registerScreens() {
 
   Navigation.registerComponent('parcel.Login', () => Login);
-  Navigation.registerComponent('parcel.Runs', () => Runs);
+  Navigation.registerComponent('parcel.Home', () => Home);
   Navigation.registerComponent('parcel.CreateRun', () => CreateRun);
   Navigation.registerComponent('parcel.StartRun', () => StartRun);
 
