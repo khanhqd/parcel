@@ -5,9 +5,12 @@ import {
   StyleSheet,
   Image,
   Dimensions,
+  TouchableOpacity,
+  ScrollView
 } from 'react-native';
 import {Navigation} from 'react-native-navigation';
 var {height, width} = Dimensions.get('window');
+import { Button1 } from '../common';
 
 export default class Home extends Component {
   static navigatorButtons = {
@@ -65,6 +68,85 @@ export default class Home extends Component {
         <Image
         style={styles.background}
         source={require('../../img/login_background.png')}/>
+        <ScrollView style={{paddingTop: 65}}>
+          <View style={styles.rowContainer}>
+            <TouchableOpacity>
+                <View style={styles.itemContainer}>
+                    <Image
+                    style={styles.icon}
+                    source={require('../../img/ic_news.png')}/>
+                    <Text style={styles.title}>
+                        Tin tức
+                    </Text>
+                </View>
+            </TouchableOpacity>
+            <TouchableOpacity>
+                <View style={[styles.itemContainer,{marginLeft: 0}]}>
+                    <Image
+                    style={styles.icon}
+                    source={require('../../img/ic_list.png')}/>
+                    <Text style={styles.title}>
+                        Chương trình học
+                    </Text>
+                </View>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.rowContainer}>
+            <TouchableOpacity>
+                <View style={styles.itemContainer}>
+                    <Image
+                    style={styles.icon}
+                    source={require('../../img/ic_medal.png')}/>
+                    <Text style={styles.title}>
+                        Tra cứu điểm
+                    </Text>
+                </View>
+            </TouchableOpacity>
+            <TouchableOpacity>
+                <View style={[styles.itemContainer,{marginLeft: 0}]}>
+                    <Image
+                    style={styles.icon}
+                    source={require('../../img/ic_schedule.png')}/>
+                    <Text style={styles.title}>
+                        Lịch học
+                    </Text>
+                </View>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.rowContainer}>
+            <TouchableOpacity>
+                <View style={styles.itemContainer}>
+                    <Image
+                    style={styles.icon}
+                    source={require('../../img/ic_sign.png')}/>
+                    <Text style={styles.title}>
+                        Đăng ký học
+                    </Text>
+                </View>
+            </TouchableOpacity>
+            <TouchableOpacity>
+                <View style={[styles.itemContainer,{marginLeft: 0}]}>
+                    <Image
+                    style={styles.icon}
+                    source={require('../../img/ic_profile.png')}/>
+                    <Text style={styles.title}>
+                        Thông tin cá nhân
+                    </Text>
+                </View>
+            </TouchableOpacity>
+          </View>
+          <TouchableOpacity>
+              <View style={[styles.itemContainer,{height: 100, width: width - 10}]}>
+                  <Image
+                  style={styles.icon}
+                  source={require('../../img/ic_logout.png')}/>
+                  <Text style={styles.title}>
+                      Đăng xuất
+                  </Text>
+              </View>
+          </TouchableOpacity>
+        </ScrollView>
+
       </View>
     );
   }
@@ -76,5 +158,34 @@ const styles = StyleSheet.create({
     height: '100%',
     width: '100%',
     position: 'absolute'
-  }
+  },
+  rowContainer: {
+    flexDirection: 'row',
+    width: width,
+    height: 155
+  },
+  itemContainer: {
+    margin: 5,
+    marginBottom: 0,
+    backgroundColor: 'rgba(77, 77, 77, 0.52)',
+    width: width/2 - 7.5 ,
+    height: 150,
+    justifyContent: 'center',
+    alignItems: 'center'
+  },
+  icon: {
+    width: 40,
+    height: 40,
+    tintColor: 'white'
+  },
+  title: {
+    paddingTop: 10,
+    fontSize: 17,
+    color: 'white'
+  },
+  button: {
+    position: 'absolute',
+    bottom: 0,
+    alignItems: 'center'
+  },
 });
