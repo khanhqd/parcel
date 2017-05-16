@@ -20,12 +20,10 @@ export default class Home extends Component {
     }]
   };
   static navigatorStyle = {
-    navBarTextColor: 'white',
     navBarButtonColor: 'white',
-    // navBarTransparent: true,
-    // navBarNoBorder: true,
-    navBarBlur: true,
-    drawUnderNavBar: true,
+    navBarHidden: false,
+    navBarBackgroundColor: '#889C9B',
+    navBarTextColor: 'white'
   };
 
   onNavigatorEvent(event) {
@@ -68,9 +66,9 @@ export default class Home extends Component {
         <Image
         style={styles.background}
         source={require('../../img/login_background.png')}/>
-        <ScrollView style={{paddingTop: 65}}>
+        <ScrollView >
           <View style={styles.rowContainer}>
-            <TouchableOpacity>
+            <TouchableOpacity onPress={()=> this.props.navigator.push({ screen: "parcel.News", title: 'Tin tức' })}>
                 <View style={styles.itemContainer}>
                     <Image
                     style={styles.icon}
