@@ -2,9 +2,9 @@ import React from 'react';
 import { View, Text, Dimensions, Platform, TouchableOpacity } from 'react-native';
 var {height, width} = Dimensions.get('window');
 
-const NewsItem = ({ title, date }) => {
+const NewsItem = ({ title, date, url, onPress }) => {
     return (
-      <View style={styles.container}>
+      <TouchableOpacity style={styles.container} onPress={() => onPress({title, date, url})}>
         <View style={styles.leftBox}>
           <Text style={styles.title}>{title}
           </Text>
@@ -16,7 +16,7 @@ const NewsItem = ({ title, date }) => {
           style={styles.date}>{date}
           </Text>
         </View>
-      </View>
+      </TouchableOpacity>
     )
 }
 const styles={

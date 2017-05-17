@@ -5,6 +5,7 @@ import Home from './Home';
 import CreateRun from './CreateRun';
 import StartRun from './StartRun';
 import News from './News';
+import NewsDetail from './NewsDetail';
 // register all screens of the app (including internal ones)
 export function registerScreens() {
 
@@ -13,5 +14,6 @@ export function registerScreens() {
   Navigation.registerComponent('parcel.CreateRun', () => CreateRun);
   Navigation.registerComponent('parcel.StartRun', () => StartRun);
   Navigation.registerComponent('parcel.News', () => News);
+  Navigation.registerComponent('parcel.NewsDetail', () => NewsDetail);
 
 }

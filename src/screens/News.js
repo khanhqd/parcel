@@ -6,8 +6,12 @@ import {
   Dimensions,
   TouchableOpacity,
   TextInput,
+  FlatList,
+  ActivityIndicator,
   Image
 } from 'react-native';
+
+const cheerio = require('cheerio-without-node-native');
 
 var {height, width} = Dimensions.get('window');
 
@@ -37,6 +41,9 @@ export default class News extends Component {
   constructor(props) {
     super(props);
     // if you want to listen on navigator events, set this up
+    this.state = {
+      newsArray: []
+    }
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
   };
 
@@ -46,6 +53,47 @@ export default class News extends Component {
         this.props.navigator.pop()
       }
     }
+  }
+
+  componentDidMount() {
+    this.getNews();
+  } 
+
+  getNews = () => {
+    fetch("https://qldt2.neu.edu.vn/cmcsoft.iu.web.info/Home.aspx").then((res) => res.text())
+    .then((text) => {
+      let $ = cheerio.load(text);
+      var newsArray = [];
+      $(".important_news a").each(function(){
+        var date = ""; title= $(this).text();
+        for(var i = title.length - 1; i >=0; i-- ) {
+          if(title[i] != "(") {
+            date = title[i] + date;
+          } else {
+            break; 
+          }
+        }
+        title = title.substring(0, i);
+        newsArray.push({
+          title: title,
+          url: $(this).attr("href"),
+          date: date.replace(")", "")
+        })        
+      })
+      this.setState({
+        newsArray: newsArray
+      })
+    })
+  }
+
+  goToNewsDetail = ({title, date, url}) => {
+    console.log('goToNewsDetail')
+    this.props.navigator.push({
+      screen: 'parcel.NewsDetail',
+      title: title,
+      animated: true,
+      passProps: {url: url}
+    })
   }
 
   render() {
@@ -63,9 +111,19 @@ export default class News extends Component {
           </View>
 
           <View>
-            <NewsItem
-            title= "Thông báo lịch thi học kỳ 2 2016-2017 hệ CQ khóa 58"
-            date= "21/10/2017"/>
+            
+            {this.state.newsArray.length > 0 ? 
+            
+            <FlatList
+              data={this.state.newsArray}
+              keyExtractor={(item, index) => "news"+index}
+              renderItem={({item}) => (
+                <NewsItem {...item} onPress={this.goToNewsDetail}/>
+              )}
+            />
+            :
+            <ActivityIndicator color="#889C9B" style={{marginTop:'30%'}} />
+            }
           </View>
           
       </View >
