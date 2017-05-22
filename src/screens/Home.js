@@ -89,8 +89,8 @@ export default class Home extends Component {
                 </View>
             </TouchableOpacity>
           </View>
-          <View style={styles.rowContainer}>
-            <TouchableOpacity>
+          <View style={styles.rowContainer} >
+            <TouchableOpacity onPress={()=> this.props.navigator.push({ screen: "parcel.Score", title: 'Tra cứu điểm' })} >
                 <View style={styles.itemContainer}>
                     <Image
                     style={styles.icon}
